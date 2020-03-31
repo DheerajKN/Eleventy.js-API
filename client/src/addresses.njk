@@ -1,0 +1,7 @@
+---
+title: A page for you
+layout: base.njk
+---
+{% for address in addresses %}
+    <h1>{{ address.address }}</h1>
+{% endfor %}
